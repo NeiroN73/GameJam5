@@ -221,8 +221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57e19d580f3c544fa984bfc303fe186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _policeStation: {fileID: 1713426771}
-  _nameZone: gray
+  _computer: {fileID: 1661054933}
+  _nameZone: grey
 --- !u!61 &71874127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57e19d580f3c544fa984bfc303fe186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _policeStation: {fileID: 1713426771}
+  _computer: {fileID: 1661054933}
   _nameZone: green
 --- !u!61 &99649905
 BoxCollider2D:
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57e19d580f3c544fa984bfc303fe186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _policeStation: {fileID: 1713426771}
+  _computer: {fileID: 1661054933}
   _nameZone: red
 --- !u!61 &1915718450
 BoxCollider2D:
