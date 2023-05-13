@@ -7,7 +7,7 @@ using TMPro;
 public class DialogueSystem : MonoBehaviour
 {
     [SerializeField] private GameObject _dialoguePanel;
-    [SerializeField] private Text _tmpro;
+    [SerializeField] private TextMeshProUGUI _tmpro;
     [SerializeField] private float _textSpeed;
     //[SerializeField] private InputSystem _inputSystem;
 
@@ -20,10 +20,16 @@ public class DialogueSystem : MonoBehaviour
         _dialoguePanel.SetActive(false);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
+
     public void StartDialogue(List<string> dialogueText)
     {
         StartCoroutine(OutputText(dialogueText));
     }
+
 
     IEnumerator OutputText(List<string> dialogueText)
     {

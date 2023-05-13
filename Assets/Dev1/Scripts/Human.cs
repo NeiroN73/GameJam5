@@ -6,6 +6,6 @@ public class Human : MonoBehaviour
 {
     public void ApplyDamage()
     {
-        print("uu");
+        print("i hited");
     }
 }

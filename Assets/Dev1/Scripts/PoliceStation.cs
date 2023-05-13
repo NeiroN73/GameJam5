@@ -26,4 +26,9 @@ public class PoliceStation : MonoBehaviour
             _cycleSwitcher.LaunchNextCycle();
         }
     }
+
+    public void WarningSignal(string nameZone)
+    {
+        print("Human detected in " + nameZone);
+    }
 }
