@@ -5,9 +5,15 @@ using UnityEngine;
 public class EnemySeting : MonoBehaviour
 {
     public Transform spawn_point;
+    public Transform Player;
+
+    private float _distance;
     public float Timer;
     public float StartTime;
     public float Speed = 2;
+    public float frightDistance;
+
+    private Sprite EmotionSprite;
 
     int i;
 
@@ -16,6 +22,18 @@ public class EnemySeting : MonoBehaviour
     private void Start()
     {
         i = Random.Range(0, 1);
+
+    }
+    public void Update()
+    {
+        _distance = Vector3.Distance(Player.position, transform.position);
+        if(_distance > frightDistance)
+        {
+
+        }    else if(_distance > frightDistance)
+        {
+
+        }
 
     }
     private void FixedUpdate()
