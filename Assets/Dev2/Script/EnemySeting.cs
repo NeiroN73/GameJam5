@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemySeting : MonoBehaviour
 {
-    public GameObject Box;
+    public Transform spawn_point;
 
     public MeshCollider Plane;
 
-    public float x, y;
+    
     private bool _check;
 
     private Collider [] _collidrs;
@@ -16,23 +16,24 @@ public class EnemySeting : MonoBehaviour
     private Vector2 sizeCol= new Vector2(1f,1f);
 
     private Vector3 PointPos;
-    private Vector3 testV;
+    private Vector3 value = new Vector3(3,3,3);
     private void Start()
     {
         PointGenerator();
+        
     }
     
-    public void PointGenerator()
+    private void PointGenerator()
     {
-        x = Random.Range(Plane.transform.position.x - Random.Range(0,Plane.bounds.extents.x), Plane.transform.position.x + Random.Range(0, Plane.bounds.extents.x));
-        y = Random.Range(Plane.transform.position.y - Random.Range(0, Plane.bounds.extents.y), Plane.transform.position.y + Random.Range(0, Plane.bounds.extents.y));
-        PointPos = new Vector3(x, y);
-        testV = new Vector3(PointPos.x, PointPos.y, 20);
-        _check = CheckSpawnPoint(testV);
+        
+        PointPos = new Vector3(Random.Range(spawn_point.position.x - value.x,spawn_point.position.x + value.x), 
+            Random.Range(spawn_point.position.z - value.z, spawn_point.position.z + value.z));
+        
+        _check = CheckSpawnPoint(PointPos);
 
         if(_check)
         {
-            Box.transform.position = PointPos;
+            gameObject.transform.position = PointPos;
         }
         else
         {
@@ -41,8 +42,7 @@ public class EnemySeting : MonoBehaviour
     }
     public bool CheckSpawnPoint(Vector3 spawnpos)
     {
-        Ray ray = new Ray(transform.position = spawnpos, transform.forward);
-        Debug.DrawRay(transform.position = spawnpos, transform.forward*200f,Color.red);
+      
         _collidrs = Physics.OverlapBox(spawnpos,sizeCol);
         return (_collidrs.Length > 0) ? false : true;
 
