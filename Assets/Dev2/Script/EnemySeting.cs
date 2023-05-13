@@ -5,51 +5,48 @@ using UnityEngine;
 public class EnemySeting : MonoBehaviour
 {
     public Transform spawn_point;
+    public float Timer;
+    public float StartTime;
+    public float Speed = 2;
 
-    public MeshCollider Plane;
+    int i;
 
-    
-    private bool _check;
-
-    private Collider [] _collidrs;
-
-    private Vector2 sizeCol= new Vector2(1f,1f);
-
-    private Vector3 PointPos;
-    private Vector3 value = new Vector3(3,3,3);
     private void Start()
     {
-        PointGenerator();
-        
+        i = Random.Range(0, 1);
+
     }
-    
-    private void PointGenerator()
+    private void FixedUpdate()
     {
         
-        PointPos = new Vector3(Random.Range(spawn_point.position.x - value.x,spawn_point.position.x + value.x), 
-            Random.Range(spawn_point.position.z - value.z, spawn_point.position.z + value.z));
-        
-        _check = CheckSpawnPoint(PointPos);
-
-        if(_check)
+        if(i==0)
         {
-            gameObject.transform.position = PointPos;
+            Walking();
+            
         }
         else
         {
-            print(false);
+            Idle();
         }
     }
-    public bool CheckSpawnPoint(Vector3 spawnpos)
+    public void Idle()
+    {
+    
+    }
+    public void Walking()
     {
       
-        _collidrs = Physics.OverlapBox(spawnpos,sizeCol);
-        return (_collidrs.Length > 0) ? false : true;
-
-       
+        transform.position = Vector2.MoveTowards(this.transform.position,spawn_point.position,Speed *Time.deltaTime);
+        if(spawn_point.position.x<transform.position.x)
+        {
+            transform.localScale = new Vector3(-2, 2, transform.localScale.z);
+        }else if(spawn_point.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(2, 2, transform.localScale.z);
+        }
     }
-    private void Update()
+    public void TimerIdle()
     {
-        CheckSpawnPoint(PointPos);
+
     }
 }
