@@ -38,7 +38,7 @@ public class SpawnPoint : MonoBehaviour
 
     public bool CheckSpawnPoint()
     {
-        collider = Physics2D.OverlapCircle(gameObject.transform.position, 2);
+        collider = Physics2D.OverlapCircleAll(gameObject.transform.position, 2);
 
         if (collider = null)
         {
