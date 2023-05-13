@@ -12,7 +12,7 @@ public class CycleSwitcher : MonoBehaviour
 
     public Action<CycleSettingsSO> SwitchedCycle;
 
-    [SerializeField] private CycleSettingsSO _cycleSettings;
+    public List<CycleSettingsSO> _listCycleSettings;
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class CycleSwitcher : MonoBehaviour
 
     public void LaunchNextCycle()
     {
-        SwitchedCycle?.Invoke(_cycleSettings);
+        //SwitchedCycle?.Invoke(_listCycleSettings[_currentCycle]);
         _currentCycle++;
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
