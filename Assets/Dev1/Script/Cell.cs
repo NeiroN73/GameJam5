@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Cell : MonoBehaviour
 {
+    [SerializeField] private Item _itemPrefab;
+
     public void CreateItem()
     {
-        //var item = Instantiate();
-        print(gameObject.name);
+        var item = Instantiate(_itemPrefab, transform.position, Quaternion.identity);
+        //print(gameObject.name);
     }
 }
