@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-   public Collider2D  collider;
+   public Collider2D [] collider;
     public MeshCollider Mesh;
     public float maxX, maxY;
     public Vector2 PointPos;
@@ -40,7 +40,7 @@ public class SpawnPoint : MonoBehaviour
     {
         collider = Physics2D.OverlapCircleAll(gameObject.transform.position, 2);
 
-        if (collider = null)
+        if (collider == null)
         {
             return true;
         }
