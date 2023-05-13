@@ -10,12 +10,13 @@ public class PoliceStation : MonoBehaviour
     private void Start()
     {
         _cycleSwitcher = CycleSwitcher.Instance;
-        _cycleSwitcher.SwitchedCycle += OnSwitchedCycle;
 
         for(int i = 0; i < transform.childCount; i++)
         {
             _listCells.Add(transform.GetChild(i).gameObject.GetComponent<Cell>());
         }
+
+        _listCells[_cycleSwitcher._listCycleSettings[_cycleSwitcher._currentCycle]._cell].CreateItem();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,10 +25,5 @@ public class PoliceStation : MonoBehaviour
         {
             _cycleSwitcher.LaunchNextCycle();
         }
-    }
-
-    private void OnSwitchedCycle(CycleSettingsSO settings)
-    {
-        _listCells[settings._cell].CreateItem();
     }
 }
