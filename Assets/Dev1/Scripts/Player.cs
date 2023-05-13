@@ -4,6 +4,7 @@ using Unity.Burst.CompilerServices;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Player : MonoBehaviour
 {
@@ -141,5 +142,14 @@ public class Player : MonoBehaviour
         movement = Vector2.ClampMagnitude(movement, 1);
 
         _rigidbody.velocity += movement * _speed * Time.deltaTime;
+
+        if (horizontal > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (horizontal < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
     }
 }
