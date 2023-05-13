@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: SecondCycle
   m_EditorClassIdentifier: 
   _cell: 1
+  _time: 8

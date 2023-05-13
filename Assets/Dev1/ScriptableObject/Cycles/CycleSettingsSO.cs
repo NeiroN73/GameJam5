@@ -6,4 +6,5 @@ using UnityEngine;
 public class CycleSettingsSO : ScriptableObject
 {
     public int _cell;
+    public int _time;
 }

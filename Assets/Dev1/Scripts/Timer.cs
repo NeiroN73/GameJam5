@@ -7,14 +7,13 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _text;
-    [SerializeField] private float _startTime;
     private float _currentTime;
     private CycleSwitcher _cycleSwitcher;
 
     private void Start()
     {
-        _currentTime = _startTime;
         _cycleSwitcher = CycleSwitcher.Instance;
+        _currentTime = _cycleSwitcher._listCycleSettings[_cycleSwitcher._currentCycle]._time;
     }
 
     private void Update()

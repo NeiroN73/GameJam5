@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: ThirdCycle
   m_EditorClassIdentifier: 
   _cell: 2
+  _time: 6

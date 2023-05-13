@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public ItemSO _currentItem;
 
     [SerializeField] private float _attackRadius;
-    [SerializeField] private LayerMask _humanMask;
+    [SerializeField] private LayerMask _humanoidMask;
     [SerializeField] private float _distanceMeleeAttack;
 
     [SerializeField] private float _distanceDistanceAttack;
@@ -78,28 +78,42 @@ public class Player : MonoBehaviour
     private void MeleeAttack()
     {
         Vector2 useDirection = (_camera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
-        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, _attackRadius, useDirection, _distanceMeleeAttack, _humanMask);
+        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, _attackRadius, useDirection, _distanceMeleeAttack, _humanoidMask);
 
         if (hits.Length <= 0) return;
 
         foreach (RaycastHit2D hit in hits)
         {
             print(hit.transform.gameObject.name);
-            hit.transform.gameObject.TryGetComponent(out Human human);
-            human.ApplyDamage();
+
+            if(hit.transform.gameObject.TryGetComponent(out Human human))
+            {
+                human.ApplyDamage();    
+            }
+            else if(hit.transform.gameObject.TryGetComponent(out Robot robot))
+            {
+                robot.ApplyDamage();
+            }
         }
     }
 
     private void DistanceAttack()
     {
         Vector2 useDirection = (_camera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
-        RaycastHit2D ray = Physics2D.Raycast(transform.position, useDirection, _distanceDistanceAttack, _humanMask);
+        RaycastHit2D ray = Physics2D.Raycast(transform.position, useDirection, _distanceDistanceAttack, _humanoidMask);
 
         if (ray == false) return;
 
         print(ray.transform.gameObject.name);
-        ray.transform.gameObject.TryGetComponent(out Human human);
-        human.ApplyDamage();
+        
+        if (ray.transform.gameObject.TryGetComponent(out Human human))
+        {
+            human.ApplyDamage();
+        }
+        else if (ray.transform.gameObject.TryGetComponent(out Robot robot))
+        {
+            robot.ApplyDamage();
+        }
     }
 
     private void Move()
