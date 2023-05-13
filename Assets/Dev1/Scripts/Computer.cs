@@ -43,6 +43,8 @@ public class Computer : MonoBehaviour
             yield return new WaitForSeconds(1);
             _tmpro.text = "";
         }
+
+        _panel.SetActive(false);
     }
 
     private IEnumerator OutputText(string phrase)
