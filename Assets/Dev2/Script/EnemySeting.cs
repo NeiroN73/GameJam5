@@ -11,6 +11,8 @@ public class EnemySeting : MonoBehaviour
 
     int i;
 
+    public Animation anim;
+
     private void Start()
     {
         i = Random.Range(0, 1);
@@ -46,6 +48,10 @@ public class EnemySeting : MonoBehaviour
         }
     }
     public void TimerIdle()
+    {
+
+    }
+    public void Notice()
     {
 
     }
