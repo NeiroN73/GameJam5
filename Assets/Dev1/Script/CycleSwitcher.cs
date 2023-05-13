@@ -6,21 +6,36 @@ using System;
 
 public class CycleSwitcher : MonoBehaviour
 {
-    private static int _currentCycle;
+    public static CycleSwitcher Instance { get; private set; }
 
-    public Action<int> SwitchedCycle;
+    public int _currentCycle;
+
+    public Action<CycleSettingsSO> SwitchedCycle;
 
     [SerializeField] private CycleSettingsSO _cycleSettings;
 
-    private void Start()
+    private void Awake()
     {
-        //DontDestroyOnLoad(gameObject);
+        if(Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            return;
+        }
+
+        Destroy(gameObject);
     }
 
     public void LaunchNextCycle()
     {
-        SwitchedCycle?.Invoke(_currentCycle);
+        SwitchedCycle?.Invoke(_cycleSettings);
         _currentCycle++;
+        Debug.Log(_currentCycle);
+        SceneManager.LoadSceneAsync(0);
+    }
+
+    public void RestartCycle()
+    {
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
     }

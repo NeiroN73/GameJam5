@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class Cell : MonoBehaviour
 {
-    
+    public void CreateItem()
+    {
+        //var item = Instantiate();
+        print(gameObject.name);
+    }
 }
