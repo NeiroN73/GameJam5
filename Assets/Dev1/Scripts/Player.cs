@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
 
     private Animator _animator;
 
+    [SerializeField] private GameObject _itemInHand;
 
     private void Start()
     {
@@ -30,24 +32,37 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
 
         _camera = Camera.main;
+
+        _itemInHand.SetActive(false);
     }
 
     private void Update()
     {
         Move();
         UseItem();
+        RotateItem();
+    }
+
+    private void RotateItem()
+    {
+        Vector2 useDirection = (transform.position - _camera.ScreenToWorldPoint(Input.mousePosition)).normalized;
+
+        Vector2 diff = useDirection.normalized;
+        float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+        _itemInHand.transform.rotation = Quaternion.Euler(0f, 0f, rot_z);
     }
 
     public void SetItem(ItemSO item)
     {
         _currentItem = item;
+        _itemInHand.SetActive(true);
     }
 
     private void UseItem()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            if (_currentItem == null) return;
+            if (_currentItem == null)   return;
 
             switch (_currentItem.ItemType)
             {
@@ -55,6 +70,7 @@ public class Player : MonoBehaviour
                     //animator play something
                     print("gun");
                     DistanceAttack();
+                    //here set _itemInHand
                     break;
 
                 case ItemType.StunGun:

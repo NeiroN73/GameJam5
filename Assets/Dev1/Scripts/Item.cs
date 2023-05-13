@@ -9,11 +9,6 @@ public class Item : MonoBehaviour
     private Rigidbody2D _rigidbody;
     [SerializeField] private float _force;
 
-    private void Start()
-    {
-
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent(out Player player))

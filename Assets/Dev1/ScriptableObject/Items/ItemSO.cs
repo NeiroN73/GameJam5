@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     public ItemType ItemType;
+    public Sprite Sprite;
 }
 
 public enum ItemType
