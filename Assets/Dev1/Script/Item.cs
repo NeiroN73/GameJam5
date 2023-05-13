@@ -5,23 +5,14 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    [SerializeField] private ItemType _itemType;
+    public ItemSO _item;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.TryGetComponent(out Player player))
+        if (collision.gameObject.TryGetComponent(out Player player))
         {
-            player.SetItem(this);
+            player.SetItem(_item);
             Destroy(gameObject);
         }
     }
-}
-
-public enum ItemType
-{
-    None,
-    Gun,
-    Baton,
-    StunGun,
-    PepperSpray
 }
