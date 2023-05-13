@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
+public class DialogueTriggerNotKey : MonoBehaviour
 {
     [SerializeField] private DialogueSystem _dialogueSystem;
-    [SerializeField] private ReactionEnemy _reactionEnemy;
+    //[SerializeField] private ReactionEnemy _reactionEnemy;
     [SerializeField] private List<string> _dialogueText;
 
     private bool _checkTrigger;
@@ -20,8 +20,9 @@ public class DialogueTrigger : MonoBehaviour
         if(other.TryGetComponent(out Player player))
         {
             _checkTrigger = true;
-            _reactionEnemy.Sight(true);
-
+            //_reactionEnemy.Sight(true);
+            _dialogueSystem.StopAllCoroutines();
+            _dialogueSystem.StartDialogue(_dialogueText);
         }
     }
 
@@ -30,7 +31,8 @@ public class DialogueTrigger : MonoBehaviour
         if (other.TryGetComponent(out Player player))
         {
             _checkTrigger = false;
-            _reactionEnemy.Sight(false);
+            //_reactionEnemy.Sight(false);
+            Destroy(gameObject);
         }
     }
 
