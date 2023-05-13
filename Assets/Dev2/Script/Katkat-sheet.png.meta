@@ -122,9 +122,9 @@ TextureImporter:
       name: Katkat-sheet_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 2
-        width: 33
+        width: 39
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -143,9 +143,9 @@ TextureImporter:
       name: Katkat-sheet_1
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 2
-        width: 35
+        width: 39
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,9 +164,9 @@ TextureImporter:
       name: Katkat-sheet_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 2
-        width: 38
+        width: 39
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,9 +185,9 @@ TextureImporter:
       name: Katkat-sheet_3
       rect:
         serializedVersion: 2
-        x: 147
+        x: 144
         y: 2
-        width: 36
+        width: 39
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}

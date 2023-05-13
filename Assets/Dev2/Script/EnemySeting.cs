@@ -22,6 +22,7 @@ public class EnemySeting : MonoBehaviour
         if(i==0)
         {
             Walking();
+            
         }
         else
         {
@@ -34,8 +35,15 @@ public class EnemySeting : MonoBehaviour
     }
     public void Walking()
     {
-        Vector2 direction = spawn_point.position - transform.position;
-        transform.Translate(direction * Speed * Time.deltaTime);
+      
+        transform.position = Vector2.MoveTowards(this.transform.position,spawn_point.position,Speed *Time.deltaTime);
+        if(spawn_point.position.x<transform.position.x)
+        {
+            transform.localScale = new Vector3(-2, 2, transform.localScale.z);
+        }else if(spawn_point.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(2, 2, transform.localScale.z);
+        }
     }
     public void TimerIdle()
     {

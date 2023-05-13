@@ -19,19 +19,19 @@ public class SpawnPoint : MonoBehaviour
     {
         PointGenerator();
     }
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Block")
         {
-            print("tt");
+         
             PointGenerator();
         }
     }
 
     private void PointGenerator()
     {
-        maxX = Random.Range(Mesh.transform.position.x - Random.Range(0, Mesh.bounds.extents.x), Mesh.transform.position.x + Random.Range(0, Mesh.bounds.extents.x));
-        maxY = Random.Range(Mesh.transform.position.y - Random.Range(0, Mesh.bounds.extents.y), Mesh.transform.position.y + Random.Range(0, Mesh.bounds.extents.y));
+        maxX = Random.Range(Mesh.transform.position.x - Random.Range(3, Mesh.bounds.extents.x), Mesh.transform.position.x + Random.Range(3, Mesh.bounds.extents.x));
+        maxY = Random.Range(Mesh.transform.position.y - Random.Range(3, Mesh.bounds.extents.y), Mesh.transform.position.y + Random.Range(3, Mesh.bounds.extents.y));
         //PointPos = new Vector2(Random.Range(-maxX, maxX), Random.Range(-maxZ, maxZ));
         gameObject.transform.position = new Vector2(maxX,maxY);
     }
