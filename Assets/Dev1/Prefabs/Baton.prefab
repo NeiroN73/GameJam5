@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6222495762352402106}
   - component: {fileID: 6222495762352402052}
   - component: {fileID: 6222495762352402055}
+  - component: {fileID: 1437359275698422709}
   m_Layer: 0
   m_Name: Baton
   m_TagString: Untagged
@@ -134,3 +135,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _item: {fileID: 11400000, guid: 76086fb4c6a2ea243af76199fb404c5d, type: 2}
+  _force: 400
+--- !u!50 &1437359275698422709
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6222495762352402107}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 8
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

@@ -8,7 +8,7 @@ public class Cell : MonoBehaviour
 
     public void CreateItem()
     {
-        var item = Instantiate(_itemPrefab, transform.position, Quaternion.identity);
-        //print(gameObject.name);
+        Item item = Instantiate(_itemPrefab, transform.position, Quaternion.identity);
+        item.ThrowItem();
     }
 }
