@@ -6,10 +6,10 @@ public abstract class Humanoid : MonoBehaviour
 {
     [SerializeField] private List<Transform> _listPoints = new List<Transform>();
 
-    private Transform _currentPoint;
-    [SerializeField] private float _speed;
+    protected Transform _currentPoint;
+    [SerializeField] protected float _speed;
 
-    private void Start()
+    public virtual void Start()
     {
         GetRandomPoint();
     }
