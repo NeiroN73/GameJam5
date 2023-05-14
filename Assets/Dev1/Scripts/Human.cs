@@ -18,6 +18,8 @@ public class Human : Humanoid
     public void ApplyDamage()
     {
         print("i hited and i human");
+        CycleSwitcher.Instance.AddCatchedHumans();
+        Destroy(gameObject);
     }
 
     public override void Start()
@@ -40,12 +42,15 @@ public class Human : Humanoid
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.TryGetComponent(out Player player))
         {
-            _speed = _afraidSpeed;
-            _currentPoint = _exit.gameObject.transform;
+            if(_emoji.activeSelf) 
+            {
+                _speed = _afraidSpeed;
+                _currentPoint = _exit.gameObject.transform;
+            }
         }
     }
 }

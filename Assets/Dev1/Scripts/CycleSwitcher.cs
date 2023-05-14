@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
+using TMPro;
 
 public class CycleSwitcher : MonoBehaviour
 {
@@ -17,23 +18,25 @@ public class CycleSwitcher : MonoBehaviour
     [SerializeField] private GameObject _restartCyclePanel;
     [SerializeField] private GameObject _nextCyclePanel;
 
+    [SerializeField] private GameObject _canvas;
+
+    public int _amountCatchedHumans;
+    public int _amountDisorderlyConduct;
+    [SerializeField] private TextMeshProUGUI _catcherText;
+    [SerializeField] private TextMeshProUGUI _disorderlyText;
+
     private void Awake()
     {
-        _nextCyclePanel.SetActive(false);
-        _restartCyclePanel.SetActive(false);
-
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            DontDestroyOnLoad(_restartCyclePanel);
-            DontDestroyOnLoad(_nextCyclePanel);
+            DontDestroyOnLoad(_canvas);
             return;
         }
 
         Destroy(gameObject);
-        Destroy(_restartCyclePanel);
-        Destroy(_nextCyclePanel);
+        Destroy(_canvas);
     }
 
     public void LaunchNextCycle()
@@ -41,24 +44,58 @@ public class CycleSwitcher : MonoBehaviour
         //SwitchedCycle?.Invoke(_listCycleSettings[_currentCycle]);
         _currentCycle++;
         Debug.Log(_currentCycle);
-        _nextCyclePanel.SetActive(false);
         SceneManager.LoadSceneAsync(0);
+        _nextCyclePanel.SetActive(false);
+
+        _amountCatchedHumans = 0;
+        _amountDisorderlyConduct = 0;
+        Time.timeScale = 1;
+        _catcherText.text = "0";
+        _disorderlyText.text = "0";
     }
 
     public void RestartCycle()
     {
         Debug.Log(_currentCycle);
-        _restartCyclePanel.SetActive(false);
         SceneManager.LoadSceneAsync(0);
+        _restartCyclePanel.SetActive(false);
+
+        _amountCatchedHumans = 0;
+        _amountDisorderlyConduct = 0;
+        Time.timeScale = 1;
+        _catcherText.text = "0";
+        _disorderlyText.text = "0";
     }
 
     public void ActivateRestartPanel()
     {
         _restartCyclePanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void ActivateNextPanel()
     {
         _nextCyclePanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void AddCatchedHumans()
+    {
+        _amountCatchedHumans++;
+        _catcherText.text = _amountCatchedHumans.ToString();
+        if (_amountCatchedHumans >= _listCycleSettings[_currentCycle]._humanCatchedAmount)
+        {
+            ActivateNextPanel();
+        }
+    }
+
+    public void AddDisorderlyConduct()
+    {
+        _amountDisorderlyConduct++;
+        _disorderlyText.text = _amountDisorderlyConduct.ToString();
+        if (_amountDisorderlyConduct >= _listCycleSettings[_currentCycle]._disorderlyAmount)
+        {
+            ActivateRestartPanel();
+        }
     }
 }
