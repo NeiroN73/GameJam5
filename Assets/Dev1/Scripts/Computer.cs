@@ -19,8 +19,9 @@ public class Computer : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(OutputText(_text));
-        _panel.SetActive(true);
+            StartCoroutine(OutputText(_text));
+            _panel.SetActive(true);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

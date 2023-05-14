@@ -17,6 +17,7 @@ public class CycleSwitcher : MonoBehaviour
 
     [SerializeField] private GameObject _restartCyclePanel;
     [SerializeField] private GameObject _nextCyclePanel;
+    [SerializeField] private GameObject _destroyCyclePanel;
     [SerializeField] private GameObject _endCyclePanel;
 
     [SerializeField] private GameObject _canvas;
@@ -48,17 +49,21 @@ public class CycleSwitcher : MonoBehaviour
 
     public void LaunchNextCycle()
     {
-        if(_currentCycle > _listCycleSettings.Count)
-        {
-            _endCyclePanel.SetActive(true);
-            Time.timeScale = 0;
-            return;
-        }
 
         _currentCycle++;
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
         _nextCyclePanel.SetActive(false);
+        _destroyCyclePanel.SetActive(false);
+
+        print(_currentCycle);
+        print(_listCycleSettings.Count);
+        if (_currentCycle == _listCycleSettings.Count)
+        {
+            Time.timeScale = 0;
+            ActivateEndPanel();
+            return;
+        }
 
         _amountCatchedHumans = 0;
         _amountDisorderlyConduct = 0;
@@ -72,6 +77,7 @@ public class CycleSwitcher : MonoBehaviour
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
         _restartCyclePanel.SetActive(false);
+        _destroyCyclePanel.SetActive(false);
 
         _amountCatchedHumans = 0;
         _amountDisorderlyConduct = 0;
@@ -92,6 +98,18 @@ public class CycleSwitcher : MonoBehaviour
         Time.timeScale = 0;
     }
 
+    public void ActivateEndPanel()
+    {
+        _endCyclePanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void ActivateDestroyPanel()
+    {
+        _destroyCyclePanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
     public void AddCatchedHumans()
     {
         _amountCatchedHumans++;
@@ -108,7 +126,7 @@ public class CycleSwitcher : MonoBehaviour
         _disorderlyText.text = _amountDisorderlyConduct.ToString() + " / " + _listCycleSettings[_currentCycle]._disorderlyAmount;
         if (_amountDisorderlyConduct >= _listCycleSettings[_currentCycle]._disorderlyAmount)
         {
-            ActivateRestartPanel();
+            ActivateDestroyPanel();
         }
     }
 }

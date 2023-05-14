@@ -27,8 +27,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] private GameObject _itemInHand;
 
-    [SerializeField] private GameObject _particleBaton;
-    [SerializeField] private GameObject _particlePepperSpray;
+    [SerializeField] private GameObject _particle;
+    
+
 
     private void Start()
     {
@@ -73,22 +74,24 @@ public class Player : MonoBehaviour
             {
                 case ItemType.Gun:
                     //animator play something
-                    DistanceAttack();
+                    DistanceAttack(_particle);
+                    Instantiate(_particle, transform.position, Quaternion.identity);
                     //here set _itemInHand
                     break;
 
                 case ItemType.StunGun:
-                    DistanceAttack();
+                    DistanceAttack(_particle);
+                    Instantiate(_particle, transform.position, Quaternion.identity);
                     break;
 
                 case ItemType.PepperSpray:
-                    MeleeAttack(_particlePepperSpray);
-                    Instantiate(_particlePepperSpray, transform.position, Quaternion.identity);
+                    MeleeAttack(_particle);
+                    Instantiate(_particle, transform.position, Quaternion.identity);
                     break;
 
                 case ItemType.Baton:
-                    MeleeAttack(_particleBaton);
-                    Instantiate(_particleBaton, transform.position, Quaternion.identity);
+                    MeleeAttack(_particle);
+                    Instantiate(_particle, transform.position, Quaternion.identity);
                     break;
             }
         }
@@ -117,7 +120,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void DistanceAttack()
+    private void DistanceAttack(GameObject particle)
     {
         Vector2 useDirection = (_camera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
         RaycastHit2D ray = Physics2D.Raycast(transform.position, useDirection, _distanceDistanceAttack, _humanoidMask);
@@ -133,6 +136,8 @@ public class Player : MonoBehaviour
         {
             robot.ApplyDamage();
         }
+
+        Instantiate(particle, ray.transform.position, Quaternion.identity);
     }
 
     private void Move()

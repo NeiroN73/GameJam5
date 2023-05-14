@@ -47,8 +47,6 @@ public class Menu : MonoBehaviour
     public void Ñontinue()
     {
         ispuse = false;
-        Cursor.visible = false;
-        Screen.lockCursor = true;
         menus.SetActive(false);
         setings.SetActive(false);
     }

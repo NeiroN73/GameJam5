@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Humanoid : MonoBehaviour
 {
-    [SerializeField] private List<Transform> _listPoints = new List<Transform>();
+    [SerializeField] public List<Transform> _listPoints = new List<Transform>();
 
     protected Transform _currentPoint;
     [SerializeField] protected float _speed;
