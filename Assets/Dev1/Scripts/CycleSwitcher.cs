@@ -41,7 +41,8 @@ public class CycleSwitcher : MonoBehaviour
 
     private void Start()
     {
-
+        _catcherText.text = "0 / " + _listCycleSettings[_currentCycle]._humanCatchedAmount;
+        _disorderlyText.text = "0 / " + _listCycleSettings[_currentCycle]._disorderlyAmount;
     }
 
     public void LaunchNextCycle()

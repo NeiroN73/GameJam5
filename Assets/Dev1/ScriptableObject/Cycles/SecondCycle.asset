@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SecondCycle
   m_EditorClassIdentifier: 
   _cell: 1
-  _time: 8
+  _time: 40
   _humanCatchedAmount: 1
   _disorderlyAmount: 4
   _robotsAmount: 0

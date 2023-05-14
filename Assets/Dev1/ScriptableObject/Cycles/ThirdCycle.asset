@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ThirdCycle
   m_EditorClassIdentifier: 
   _cell: 2
-  _time: 6
+  _time: 30
   _humanCatchedAmount: 1
   _disorderlyAmount: 3
   _robotsAmount: 0

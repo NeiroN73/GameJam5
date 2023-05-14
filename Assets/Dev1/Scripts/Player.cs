@@ -4,6 +4,7 @@ using Unity.Burst.CompilerServices;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEngine.ParticleSystem;
 using static UnityEngine.Rendering.DebugUI;
 
 public class Player : MonoBehaviour
@@ -25,6 +26,9 @@ public class Player : MonoBehaviour
     private Animator _animator;
 
     [SerializeField] private GameObject _itemInHand;
+
+    [SerializeField] private GameObject _particleBaton;
+    [SerializeField] private GameObject _particlePepperSpray;
 
     private void Start()
     {
@@ -78,17 +82,19 @@ public class Player : MonoBehaviour
                     break;
 
                 case ItemType.PepperSpray:
-                    MeleeAttack();
+                    MeleeAttack(_particlePepperSpray);
+                    Instantiate(_particlePepperSpray, transform.position, Quaternion.identity);
                     break;
 
                 case ItemType.Baton:
-                    MeleeAttack();
+                    MeleeAttack(_particleBaton);
+                    Instantiate(_particleBaton, transform.position, Quaternion.identity);
                     break;
             }
         }
     }
 
-    private void MeleeAttack()
+    private void MeleeAttack(GameObject particle)
     {
         Vector2 useDirection = (_camera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
         RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, _attackRadius, useDirection, _distanceMeleeAttack, _humanoidMask);
@@ -106,6 +112,8 @@ public class Player : MonoBehaviour
             {
                 robot.ApplyDamage();
             }
+
+            Instantiate(particle, hit.transform.position, Quaternion.identity);
         }
     }
 

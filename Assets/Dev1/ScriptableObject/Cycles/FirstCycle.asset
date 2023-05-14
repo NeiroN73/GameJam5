@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FirstCycle
   m_EditorClassIdentifier: 
   _cell: 0
-  _time: 10
+  _time: 60
   _humanCatchedAmount: 1
   _disorderlyAmount: 5
   _robotsAmount: 0
