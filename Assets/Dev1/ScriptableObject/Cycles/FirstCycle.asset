@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cell: 0
   _time: 10
-  _humanAmount: 1
+  _humanCatchedAmount: 1
   _disorderlyAmount: 5
+  _robotsAmount: 0
+  _humansAmount: 1

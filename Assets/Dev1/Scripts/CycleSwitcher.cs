@@ -39,9 +39,13 @@ public class CycleSwitcher : MonoBehaviour
         Destroy(_canvas);
     }
 
+    private void Start()
+    {
+
+    }
+
     public void LaunchNextCycle()
     {
-        //SwitchedCycle?.Invoke(_listCycleSettings[_currentCycle]);
         _currentCycle++;
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
@@ -50,8 +54,8 @@ public class CycleSwitcher : MonoBehaviour
         _amountCatchedHumans = 0;
         _amountDisorderlyConduct = 0;
         Time.timeScale = 1;
-        _catcherText.text = "0";
-        _disorderlyText.text = "0";
+        _catcherText.text = "0 / " + _listCycleSettings[_currentCycle]._humanCatchedAmount;
+        _disorderlyText.text = "0 / " + _listCycleSettings[_currentCycle]._disorderlyAmount;
     }
 
     public void RestartCycle()
@@ -63,8 +67,8 @@ public class CycleSwitcher : MonoBehaviour
         _amountCatchedHumans = 0;
         _amountDisorderlyConduct = 0;
         Time.timeScale = 1;
-        _catcherText.text = "0";
-        _disorderlyText.text = "0";
+        _catcherText.text = "0 / " + _listCycleSettings[_currentCycle]._humanCatchedAmount;
+        _disorderlyText.text = "0 / " + _listCycleSettings[_currentCycle]._disorderlyAmount;
     }
 
     public void ActivateRestartPanel()
@@ -82,7 +86,7 @@ public class CycleSwitcher : MonoBehaviour
     public void AddCatchedHumans()
     {
         _amountCatchedHumans++;
-        _catcherText.text = _amountCatchedHumans.ToString();
+        _catcherText.text = _amountCatchedHumans.ToString() + " / " + _listCycleSettings[_currentCycle]._humanCatchedAmount;
         if (_amountCatchedHumans >= _listCycleSettings[_currentCycle]._humanCatchedAmount)
         {
             ActivateNextPanel();
@@ -92,7 +96,7 @@ public class CycleSwitcher : MonoBehaviour
     public void AddDisorderlyConduct()
     {
         _amountDisorderlyConduct++;
-        _disorderlyText.text = _amountDisorderlyConduct.ToString();
+        _disorderlyText.text = _amountDisorderlyConduct.ToString() + " / " + _listCycleSettings[_currentCycle]._disorderlyAmount;
         if (_amountDisorderlyConduct >= _listCycleSettings[_currentCycle]._disorderlyAmount)
         {
             ActivateRestartPanel();
