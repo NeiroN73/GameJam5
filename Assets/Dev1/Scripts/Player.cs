@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private GameObject _particle;
     
+    private AudioSource _audioSource;
 
 
     private void Start()
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _collider = GetComponent<BoxCollider2D>();
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
 
         _camera = Camera.main;
 
@@ -76,22 +78,26 @@ public class Player : MonoBehaviour
                     //animator play something
                     DistanceAttack(_particle);
                     Instantiate(_particle, transform.position, Quaternion.identity);
+                    _audioSource.Play();
                     //here set _itemInHand
                     break;
 
                 case ItemType.StunGun:
                     DistanceAttack(_particle);
                     Instantiate(_particle, transform.position, Quaternion.identity);
+                    _audioSource.Play();
                     break;
 
                 case ItemType.PepperSpray:
                     MeleeAttack(_particle);
                     Instantiate(_particle, transform.position, Quaternion.identity);
+                    _audioSource.Play();
                     break;
 
                 case ItemType.Baton:
                     MeleeAttack(_particle);
                     Instantiate(_particle, transform.position, Quaternion.identity);
+                    _audioSource.Play();
                     break;
             }
         }
