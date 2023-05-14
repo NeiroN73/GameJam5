@@ -19,14 +19,21 @@ public class CycleSwitcher : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance == null)
+        _nextCyclePanel.SetActive(false);
+        _restartCyclePanel.SetActive(false);
+
+        if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(_restartCyclePanel);
+            DontDestroyOnLoad(_nextCyclePanel);
             return;
         }
 
         Destroy(gameObject);
+        Destroy(_restartCyclePanel);
+        Destroy(_nextCyclePanel);
     }
 
     public void LaunchNextCycle()
