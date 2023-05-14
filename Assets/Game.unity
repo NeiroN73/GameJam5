@@ -3297,7 +3297,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6770755101951060896, guid: e7fa12c39832d434082436c1ef852379, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6770755101033769703, guid: e7fa12c39832d434082436c1ef852379, type: 3}
     m_AddedGameObjects:
