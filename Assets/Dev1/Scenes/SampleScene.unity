@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 2583733}
   - component: {fileID: 2583732}
   - component: {fileID: 2583731}
+  - component: {fileID: 2583735}
   m_Layer: 3
   m_Name: Robot (15)
   m_TagString: Untagged
@@ -350,6 +351,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2583735
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583729}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &6918665
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +698,7 @@ GameObject:
   - component: {fileID: 77471067}
   - component: {fileID: 77471066}
   - component: {fileID: 77471065}
+  - component: {fileID: 77471069}
   m_Layer: 3
   m_Name: Robot (29)
   m_TagString: Untagged
@@ -891,6 +913,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &77471069
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77471063}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &81139192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,6 +1286,7 @@ GameObject:
   - component: {fileID: 112796101}
   - component: {fileID: 112796100}
   - component: {fileID: 112796099}
+  - component: {fileID: 112796103}
   m_Layer: 3
   m_Name: Robot (13)
   m_TagString: Untagged
@@ -1458,6 +1501,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &112796103
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112796097}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &114928775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1534,7 @@ GameObject:
   - component: {fileID: 114928779}
   - component: {fileID: 114928778}
   - component: {fileID: 114928777}
+  - component: {fileID: 114928781}
   m_Layer: 3
   m_Name: Robot (34)
   m_TagString: Untagged
@@ -1685,6 +1749,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &114928781
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114928775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &136810139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1782,7 @@ GameObject:
   - component: {fileID: 136810143}
   - component: {fileID: 136810142}
   - component: {fileID: 136810141}
+  - component: {fileID: 136810145}
   m_Layer: 3
   m_Name: Robot (18)
   m_TagString: Untagged
@@ -1912,6 +1997,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &136810145
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136810139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &136866346
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,6 +2156,7 @@ GameObject:
   - component: {fileID: 150803118}
   - component: {fileID: 150803117}
   - component: {fileID: 150803116}
+  - component: {fileID: 150803120}
   m_Layer: 3
   m_Name: Robot (25)
   m_TagString: Untagged
@@ -2265,6 +2371,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &150803120
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150803114}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &151389979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,6 +2404,7 @@ GameObject:
   - component: {fileID: 151389983}
   - component: {fileID: 151389982}
   - component: {fileID: 151389981}
+  - component: {fileID: 151389985}
   m_Layer: 3
   m_Name: Robot (23)
   m_TagString: Untagged
@@ -2492,6 +2619,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &151389985
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151389979}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &153799651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,6 +3023,7 @@ GameObject:
   - component: {fileID: 229101566}
   - component: {fileID: 229101565}
   - component: {fileID: 229101564}
+  - component: {fileID: 229101568}
   m_Layer: 3
   m_Name: Robot (22)
   m_TagString: Untagged
@@ -3090,6 +3238,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &229101568
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229101562}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &235268441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,6 +3271,7 @@ GameObject:
   - component: {fileID: 235268445}
   - component: {fileID: 235268444}
   - component: {fileID: 235268443}
+  - component: {fileID: 235268447}
   m_Layer: 3
   m_Name: Robot (21)
   m_TagString: Untagged
@@ -3317,6 +3486,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &235268447
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235268441}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &241104492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3742,7 @@ GameObject:
   - component: {fileID: 285001765}
   - component: {fileID: 285001764}
   - component: {fileID: 285001763}
+  - component: {fileID: 285001767}
   m_Layer: 3
   m_Name: Robot (19)
   m_TagString: Untagged
@@ -3767,6 +3957,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &285001767
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285001761}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &296409295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,6 +4052,7 @@ GameObject:
   - component: {fileID: 304118621}
   - component: {fileID: 304118620}
   - component: {fileID: 304118619}
+  - component: {fileID: 304118623}
   m_Layer: 3
   m_Name: Robot (9)
   m_TagString: Untagged
@@ -4056,6 +4267,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &304118623
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304118617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &305008855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4069,6 +4300,7 @@ GameObject:
   - component: {fileID: 305008859}
   - component: {fileID: 305008858}
   - component: {fileID: 305008857}
+  - component: {fileID: 305008861}
   m_Layer: 3
   m_Name: Robot (12)
   m_TagString: Untagged
@@ -4283,6 +4515,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &305008861
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305008855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &305010431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,6 +4672,7 @@ GameObject:
   - component: {fileID: 331065235}
   - component: {fileID: 331065234}
   - component: {fileID: 331065233}
+  - component: {fileID: 331065237}
   m_Layer: 3
   m_Name: Robot (36)
   m_TagString: Untagged
@@ -4634,6 +4887,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &331065237
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331065231}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &335334276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4678,6 +4951,7 @@ GameObject:
   - component: {fileID: 353458337}
   - component: {fileID: 353458336}
   - component: {fileID: 353458335}
+  - component: {fileID: 353458339}
   m_Layer: 3
   m_Name: Robot (8)
   m_TagString: Untagged
@@ -4892,6 +5166,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &353458339
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353458333}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &378831104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5029,6 +5323,7 @@ GameObject:
   - component: {fileID: 414711250}
   - component: {fileID: 414711249}
   - component: {fileID: 414711248}
+  - component: {fileID: 414711252}
   m_Layer: 3
   m_Name: Robot (24)
   m_TagString: Untagged
@@ -5243,6 +5538,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &414711252
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414711246}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &415716709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,6 +5757,7 @@ GameObject:
   - component: {fileID: 448745985}
   - component: {fileID: 448745984}
   - component: {fileID: 448745983}
+  - component: {fileID: 448745987}
   m_Layer: 3
   m_Name: Robot (17)
   m_TagString: Untagged
@@ -5656,6 +5972,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &448745987
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448745981}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &448806334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5669,6 +6005,7 @@ GameObject:
   - component: {fileID: 448806338}
   - component: {fileID: 448806337}
   - component: {fileID: 448806336}
+  - component: {fileID: 448806340}
   m_Layer: 3
   m_Name: Robot (16)
   m_TagString: Untagged
@@ -5883,6 +6220,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &448806340
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448806334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &452772443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5896,6 +6253,7 @@ GameObject:
   - component: {fileID: 452772447}
   - component: {fileID: 452772446}
   - component: {fileID: 452772445}
+  - component: {fileID: 452772449}
   m_Layer: 3
   m_Name: Robot (2)
   m_TagString: Untagged
@@ -6110,6 +6468,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &452772449
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452772443}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &456093866
 GameObject:
   m_ObjectHideFlags: 0
@@ -6123,6 +6501,7 @@ GameObject:
   - component: {fileID: 456093870}
   - component: {fileID: 456093869}
   - component: {fileID: 456093868}
+  - component: {fileID: 456093872}
   m_Layer: 3
   m_Name: Robot (28)
   m_TagString: Untagged
@@ -6337,6 +6716,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &456093872
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456093866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &459730676
 GameObject:
   m_ObjectHideFlags: 0
@@ -6638,6 +7037,7 @@ GameObject:
   - component: {fileID: 497939147}
   - component: {fileID: 497939146}
   - component: {fileID: 497939145}
+  - component: {fileID: 497939149}
   m_Layer: 3
   m_Name: Robot (35)
   m_TagString: Untagged
@@ -6852,6 +7252,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &497939149
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497939143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &506660699
 GameObject:
   m_ObjectHideFlags: 0
@@ -6943,6 +7363,7 @@ GameObject:
   - component: {fileID: 533261678}
   - component: {fileID: 533261677}
   - component: {fileID: 533261676}
+  - component: {fileID: 533261680}
   m_Layer: 3
   m_Name: Robot (30)
   m_TagString: Untagged
@@ -7157,6 +7578,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &533261680
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533261674}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &548421238
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,6 +7802,7 @@ GameObject:
   - component: {fileID: 574495958}
   - component: {fileID: 574495957}
   - component: {fileID: 574495956}
+  - component: {fileID: 574495960}
   m_Layer: 3
   m_Name: Robot (3)
   m_TagString: Untagged
@@ -7564,7 +8006,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -1146731242, guid: d5c2f2e5f1fbae144a2d0fffd193dc49, type: 3}
   m_Color: {r: 0.6740388, g: 0.7034756, b: 0.764151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7575,6 +8017,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &574495960
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574495954}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &578059843
 GameObject:
   m_ObjectHideFlags: 0
@@ -7588,6 +8050,7 @@ GameObject:
   - component: {fileID: 578059847}
   - component: {fileID: 578059846}
   - component: {fileID: 578059845}
+  - component: {fileID: 578059849}
   m_Layer: 3
   m_Name: Robot (12)
   m_TagString: Untagged
@@ -7802,6 +8265,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &578059849
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578059843}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &579645080
 GameObject:
   m_ObjectHideFlags: 0
@@ -7815,6 +8298,7 @@ GameObject:
   - component: {fileID: 579645084}
   - component: {fileID: 579645083}
   - component: {fileID: 579645082}
+  - component: {fileID: 579645086}
   m_Layer: 3
   m_Name: Robot (14)
   m_TagString: Untagged
@@ -8029,6 +8513,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &579645086
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579645080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &583949740
 GameObject:
   m_ObjectHideFlags: 0
@@ -8042,6 +8546,7 @@ GameObject:
   - component: {fileID: 583949744}
   - component: {fileID: 583949743}
   - component: {fileID: 583949742}
+  - component: {fileID: 583949746}
   m_Layer: 3
   m_Name: Robot (16)
   m_TagString: Untagged
@@ -8256,6 +8761,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &583949746
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583949740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &587229445
 GameObject:
   m_ObjectHideFlags: 0
@@ -8364,6 +8889,7 @@ GameObject:
   - component: {fileID: 595033543}
   - component: {fileID: 595033542}
   - component: {fileID: 595033541}
+  - component: {fileID: 595033545}
   m_Layer: 3
   m_Name: Robot (9)
   m_TagString: Untagged
@@ -8578,6 +9104,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &595033545
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595033539}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &597999437
 GameObject:
   m_ObjectHideFlags: 0
@@ -8653,6 +9199,7 @@ GameObject:
   - component: {fileID: 633820689}
   - component: {fileID: 633820688}
   - component: {fileID: 633820687}
+  - component: {fileID: 633820691}
   m_Layer: 3
   m_Name: Robot (5)
   m_TagString: Untagged
@@ -8867,6 +9414,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &633820691
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633820685}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &643207681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8945,6 +9512,7 @@ GameObject:
   - component: {fileID: 645344049}
   - component: {fileID: 645344048}
   - component: {fileID: 645344047}
+  - component: {fileID: 645344051}
   m_Layer: 3
   m_Name: Robot (32)
   m_TagString: Untagged
@@ -9159,6 +9727,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &645344051
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645344045}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &645407665
 GameObject:
   m_ObjectHideFlags: 0
@@ -9172,6 +9760,7 @@ GameObject:
   - component: {fileID: 645407669}
   - component: {fileID: 645407668}
   - component: {fileID: 645407667}
+  - component: {fileID: 645407671}
   m_Layer: 3
   m_Name: Robot (11)
   m_TagString: Untagged
@@ -9386,6 +9975,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &645407671
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645407665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &648420361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9855,7 +10464,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665880467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0018148422, y: -0.39093137, z: -10}
+  m_LocalPosition: {x: -30.44429, y: 1.1516249, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10105,6 +10714,7 @@ GameObject:
   - component: {fileID: 702002379}
   - component: {fileID: 702002378}
   - component: {fileID: 702002377}
+  - component: {fileID: 702002381}
   m_Layer: 3
   m_Name: Robot (11)
   m_TagString: Untagged
@@ -10319,6 +10929,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &702002381
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702002375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &704326874
 GameObject:
   m_ObjectHideFlags: 0
@@ -10332,6 +10962,7 @@ GameObject:
   - component: {fileID: 704326878}
   - component: {fileID: 704326877}
   - component: {fileID: 704326876}
+  - component: {fileID: 704326880}
   m_Layer: 3
   m_Name: Robot (20)
   m_TagString: Untagged
@@ -10546,6 +11177,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &704326880
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704326874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &707686215
 GameObject:
   m_ObjectHideFlags: 0
@@ -10699,6 +11350,7 @@ GameObject:
   - component: {fileID: 730993874}
   - component: {fileID: 730993873}
   - component: {fileID: 730993872}
+  - component: {fileID: 730993876}
   m_Layer: 3
   m_Name: Robot (11)
   m_TagString: Untagged
@@ -10913,6 +11565,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &730993876
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730993870}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &731362272
 GameObject:
   m_ObjectHideFlags: 0
@@ -11326,6 +11998,7 @@ GameObject:
   - component: {fileID: 773724825}
   - component: {fileID: 773724824}
   - component: {fileID: 773724823}
+  - component: {fileID: 773724827}
   m_Layer: 3
   m_Name: Robot (7)
   m_TagString: Untagged
@@ -11540,6 +12213,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &773724827
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773724821}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &778557775
 GameObject:
   m_ObjectHideFlags: 0
@@ -11781,6 +12474,7 @@ GameObject:
   - component: {fileID: 784665099}
   - component: {fileID: 784665098}
   - component: {fileID: 784665097}
+  - component: {fileID: 784665101}
   m_Layer: 3
   m_Name: Robot (47)
   m_TagString: Untagged
@@ -11995,6 +12689,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &784665101
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784665095}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &789932489
 GameObject:
   m_ObjectHideFlags: 0
@@ -12039,6 +12753,7 @@ GameObject:
   - component: {fileID: 792913332}
   - component: {fileID: 792913331}
   - component: {fileID: 792913330}
+  - component: {fileID: 792913334}
   m_Layer: 3
   m_Name: Robot (1)
   m_TagString: Untagged
@@ -12253,6 +12968,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &792913334
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792913328}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &803273833
 GameObject:
   m_ObjectHideFlags: 0
@@ -12266,6 +13001,7 @@ GameObject:
   - component: {fileID: 803273837}
   - component: {fileID: 803273836}
   - component: {fileID: 803273835}
+  - component: {fileID: 803273839}
   m_Layer: 3
   m_Name: Robot (41)
   m_TagString: Untagged
@@ -12480,6 +13216,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &803273839
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803273833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &816495254
 GameObject:
   m_ObjectHideFlags: 0
@@ -12493,6 +13249,7 @@ GameObject:
   - component: {fileID: 816495258}
   - component: {fileID: 816495257}
   - component: {fileID: 816495256}
+  - component: {fileID: 816495260}
   m_Layer: 3
   m_Name: Robot (2)
   m_TagString: Untagged
@@ -12707,6 +13464,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &816495260
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816495254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &816521966
 GameObject:
   m_ObjectHideFlags: 0
@@ -12720,6 +13497,7 @@ GameObject:
   - component: {fileID: 816521970}
   - component: {fileID: 816521969}
   - component: {fileID: 816521968}
+  - component: {fileID: 816521972}
   m_Layer: 3
   m_Name: Robot (43)
   m_TagString: Untagged
@@ -12934,6 +13712,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &816521972
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816521966}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &821256449
 GameObject:
   m_ObjectHideFlags: 0
@@ -13175,6 +13973,7 @@ GameObject:
   - component: {fileID: 835249624}
   - component: {fileID: 835249623}
   - component: {fileID: 835249622}
+  - component: {fileID: 835249626}
   m_Layer: 3
   m_Name: Robot (7)
   m_TagString: Untagged
@@ -13389,6 +14188,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &835249626
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835249620}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &835662725
 GameObject:
   m_ObjectHideFlags: 0
@@ -13464,6 +14283,7 @@ GameObject:
   - component: {fileID: 883693942}
   - component: {fileID: 883693941}
   - component: {fileID: 883693940}
+  - component: {fileID: 883693944}
   m_Layer: 3
   m_Name: Robot (6)
   m_TagString: Untagged
@@ -13678,6 +14498,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &883693944
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883693938}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &883848805
 GameObject:
   m_ObjectHideFlags: 0
@@ -13691,6 +14531,7 @@ GameObject:
   - component: {fileID: 883848809}
   - component: {fileID: 883848808}
   - component: {fileID: 883848807}
+  - component: {fileID: 883848811}
   m_Layer: 3
   m_Name: Robot (42)
   m_TagString: Untagged
@@ -13905,6 +14746,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &883848811
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883848805}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &886700467
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,6 +14810,7 @@ GameObject:
   - component: {fileID: 887574516}
   - component: {fileID: 887574515}
   - component: {fileID: 887574514}
+  - component: {fileID: 887574518}
   m_Layer: 3
   m_Name: Robot (39)
   m_TagString: Untagged
@@ -14163,6 +15025,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &887574518
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887574512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &909673244
 GameObject:
   m_ObjectHideFlags: 0
@@ -14176,6 +15058,7 @@ GameObject:
   - component: {fileID: 909673248}
   - component: {fileID: 909673247}
   - component: {fileID: 909673246}
+  - component: {fileID: 909673250}
   m_Layer: 3
   m_Name: Robot (44)
   m_TagString: Untagged
@@ -14390,6 +15273,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &909673250
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909673244}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &925205033
 GameObject:
   m_ObjectHideFlags: 0
@@ -14667,6 +15570,7 @@ GameObject:
   - component: {fileID: 960791699}
   - component: {fileID: 960791698}
   - component: {fileID: 960791697}
+  - component: {fileID: 960791701}
   m_Layer: 3
   m_Name: Robot (27)
   m_TagString: Untagged
@@ -14881,6 +15785,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &960791701
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960791695}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &972981632
 GameObject:
   m_ObjectHideFlags: 0
@@ -14894,6 +15818,7 @@ GameObject:
   - component: {fileID: 972981636}
   - component: {fileID: 972981635}
   - component: {fileID: 972981634}
+  - component: {fileID: 972981638}
   m_Layer: 3
   m_Name: Robot (13)
   m_TagString: Untagged
@@ -15108,6 +16033,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &972981638
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972981632}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &973940632
 GameObject:
   m_ObjectHideFlags: 0
@@ -15121,6 +16066,7 @@ GameObject:
   - component: {fileID: 973940636}
   - component: {fileID: 973940635}
   - component: {fileID: 973940634}
+  - component: {fileID: 973940638}
   m_Layer: 3
   m_Name: Robot (4)
   m_TagString: Untagged
@@ -15335,6 +16281,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &973940638
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973940632}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &978775321
 GameObject:
   m_ObjectHideFlags: 0
@@ -15512,6 +16478,7 @@ GameObject:
   - component: {fileID: 994856475}
   - component: {fileID: 994856474}
   - component: {fileID: 994856473}
+  - component: {fileID: 994856477}
   m_Layer: 3
   m_Name: Robot (19)
   m_TagString: Untagged
@@ -15726,6 +16693,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &994856477
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994856471}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &999888952
 GameObject:
   m_ObjectHideFlags: 0
@@ -15936,6 +16923,7 @@ GameObject:
   - component: {fileID: 1026833687}
   - component: {fileID: 1026833686}
   - component: {fileID: 1026833685}
+  - component: {fileID: 1026833689}
   m_Layer: 3
   m_Name: Robot (49)
   m_TagString: Untagged
@@ -16150,6 +17138,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1026833689
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026833683}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1030027463
 GameObject:
   m_ObjectHideFlags: 0
@@ -16289,6 +17297,7 @@ GameObject:
   - component: {fileID: 1036466673}
   - component: {fileID: 1036466672}
   - component: {fileID: 1036466671}
+  - component: {fileID: 1036466675}
   m_Layer: 3
   m_Name: Robot (15)
   m_TagString: Untagged
@@ -16503,6 +17512,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1036466675
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036466669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1042819366
 GameObject:
   m_ObjectHideFlags: 0
@@ -16775,6 +17804,7 @@ GameObject:
   - component: {fileID: 1075077716}
   - component: {fileID: 1075077715}
   - component: {fileID: 1075077714}
+  - component: {fileID: 1075077719}
   m_Layer: 3
   m_Name: Robot
   m_TagString: Untagged
@@ -16963,7 +17993,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -1146731242, guid: d5c2f2e5f1fbae144a2d0fffd193dc49, type: 3}
   m_Color: {r: 0.6740388, g: 0.7034756, b: 0.764151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16989,6 +18019,26 @@ Transform:
   m_Father: {fileID: 506660700}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1075077719
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075077713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1075248737
 GameObject:
   m_ObjectHideFlags: 0
@@ -17162,6 +18212,7 @@ GameObject:
   - component: {fileID: 1096141336}
   - component: {fileID: 1096141335}
   - component: {fileID: 1096141334}
+  - component: {fileID: 1096141338}
   m_Layer: 3
   m_Name: Robot (14)
   m_TagString: Untagged
@@ -17376,6 +18427,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1096141338
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096141332}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1096428119
 GameObject:
   m_ObjectHideFlags: 0
@@ -17420,6 +18491,7 @@ GameObject:
   - component: {fileID: 1102936534}
   - component: {fileID: 1102936533}
   - component: {fileID: 1102936532}
+  - component: {fileID: 1102936536}
   m_Layer: 3
   m_Name: Robot (8)
   m_TagString: Untagged
@@ -17634,6 +18706,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1102936536
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102936530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1104730082
 GameObject:
   m_ObjectHideFlags: 0
@@ -17925,6 +19017,7 @@ GameObject:
   - component: {fileID: 1137956197}
   - component: {fileID: 1137956196}
   - component: {fileID: 1137956195}
+  - component: {fileID: 1137956199}
   m_Layer: 3
   m_Name: Robot (2)
   m_TagString: Untagged
@@ -18128,7 +19221,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -1146731242, guid: d5c2f2e5f1fbae144a2d0fffd193dc49, type: 3}
   m_Color: {r: 0.6740388, g: 0.7034756, b: 0.764151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18139,6 +19232,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1137956199
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137956193}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1146929801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18247,6 +19360,7 @@ GameObject:
   - component: {fileID: 1167837652}
   - component: {fileID: 1167837651}
   - component: {fileID: 1167837650}
+  - component: {fileID: 1167837654}
   m_Layer: 3
   m_Name: Robot (45)
   m_TagString: Untagged
@@ -18461,6 +19575,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1167837654
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167837648}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1169219251
 GameObject:
   m_ObjectHideFlags: 0
@@ -18536,6 +19670,7 @@ GameObject:
   - component: {fileID: 1185063434}
   - component: {fileID: 1185063433}
   - component: {fileID: 1185063432}
+  - component: {fileID: 1185063436}
   m_Layer: 3
   m_Name: Robot (26)
   m_TagString: Untagged
@@ -18750,6 +19885,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1185063436
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185063430}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1185497958
 GameObject:
   m_ObjectHideFlags: 0
@@ -18865,6 +20020,7 @@ GameObject:
   - component: {fileID: 1207865469}
   - component: {fileID: 1207865468}
   - component: {fileID: 1207865467}
+  - component: {fileID: 1207865471}
   m_Layer: 3
   m_Name: Robot (30)
   m_TagString: Untagged
@@ -19079,6 +20235,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1207865471
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207865465}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1208766604
 GameObject:
   m_ObjectHideFlags: 0
@@ -19212,6 +20388,7 @@ GameObject:
   - component: {fileID: 1216302320}
   - component: {fileID: 1216302319}
   - component: {fileID: 1216302318}
+  - component: {fileID: 1216302322}
   m_Layer: 3
   m_Name: Robot (4)
   m_TagString: Untagged
@@ -19426,6 +20603,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1216302322
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216302316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1221567726
 GameObject:
   m_ObjectHideFlags: 0
@@ -19470,6 +20667,7 @@ GameObject:
   - component: {fileID: 1234323460}
   - component: {fileID: 1234323459}
   - component: {fileID: 1234323458}
+  - component: {fileID: 1234323462}
   m_Layer: 3
   m_Name: Robot (10)
   m_TagString: Untagged
@@ -19684,6 +20882,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1234323462
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234323456}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1234612366
 GameObject:
   m_ObjectHideFlags: 0
@@ -19821,6 +21039,7 @@ GameObject:
   - component: {fileID: 1259687926}
   - component: {fileID: 1259687925}
   - component: {fileID: 1259687924}
+  - component: {fileID: 1259687928}
   m_Layer: 3
   m_Name: Robot (1)
   m_TagString: Untagged
@@ -20024,7 +21243,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -1146731242, guid: d5c2f2e5f1fbae144a2d0fffd193dc49, type: 3}
   m_Color: {r: 0.6740388, g: 0.7034756, b: 0.764151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20035,6 +21254,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1259687928
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1275591405
 GameObject:
   m_ObjectHideFlags: 0
@@ -20048,6 +21287,7 @@ GameObject:
   - component: {fileID: 1275591409}
   - component: {fileID: 1275591408}
   - component: {fileID: 1275591407}
+  - component: {fileID: 1275591411}
   m_Layer: 3
   m_Name: Robot (48)
   m_TagString: Untagged
@@ -20262,6 +21502,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1275591411
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275591405}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1282635663
 GameObject:
   m_ObjectHideFlags: 0
@@ -20726,6 +21986,7 @@ GameObject:
   - component: {fileID: 1299539100}
   - component: {fileID: 1299539099}
   - component: {fileID: 1299539098}
+  - component: {fileID: 1299539102}
   m_Layer: 3
   m_Name: Robot (23)
   m_TagString: Untagged
@@ -20940,6 +22201,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1299539102
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299539096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1307016053
 GameObject:
   m_ObjectHideFlags: 0
@@ -20953,6 +22234,7 @@ GameObject:
   - component: {fileID: 1307016057}
   - component: {fileID: 1307016056}
   - component: {fileID: 1307016055}
+  - component: {fileID: 1307016059}
   m_Layer: 3
   m_Name: Robot (14)
   m_TagString: Untagged
@@ -21167,6 +22449,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1307016059
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307016053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1312013898
 GameObject:
   m_ObjectHideFlags: 0
@@ -21211,6 +22513,7 @@ GameObject:
   - component: {fileID: 1321674195}
   - component: {fileID: 1321674194}
   - component: {fileID: 1321674193}
+  - component: {fileID: 1321674197}
   m_Layer: 3
   m_Name: Robot (50)
   m_TagString: Untagged
@@ -21425,6 +22728,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1321674197
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321674191}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1322934597
 GameObject:
   m_ObjectHideFlags: 0
@@ -21438,6 +22761,7 @@ GameObject:
   - component: {fileID: 1322934601}
   - component: {fileID: 1322934600}
   - component: {fileID: 1322934599}
+  - component: {fileID: 1322934603}
   m_Layer: 3
   m_Name: Robot (1)
   m_TagString: Untagged
@@ -21652,6 +22976,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1322934603
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322934597}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1324646422
 GameObject:
   m_ObjectHideFlags: 0
@@ -21882,6 +23226,7 @@ GameObject:
   - component: {fileID: 1386424034}
   - component: {fileID: 1386424033}
   - component: {fileID: 1386424032}
+  - component: {fileID: 1386424036}
   m_Layer: 3
   m_Name: Robot (17)
   m_TagString: Untagged
@@ -22096,6 +23441,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1386424036
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386424030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1388285676
 GameObject:
   m_ObjectHideFlags: 0
@@ -22202,6 +23567,7 @@ GameObject:
   - component: {fileID: 1407935657}
   - component: {fileID: 1407935656}
   - component: {fileID: 1407935655}
+  - component: {fileID: 1407935659}
   m_Layer: 3
   m_Name: Robot (5)
   m_TagString: Untagged
@@ -22416,6 +23782,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1407935659
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407935653}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1418011668
 GameObject:
   m_ObjectHideFlags: 0
@@ -22429,6 +23815,7 @@ GameObject:
   - component: {fileID: 1418011672}
   - component: {fileID: 1418011671}
   - component: {fileID: 1418011670}
+  - component: {fileID: 1418011674}
   m_Layer: 3
   m_Name: Robot (15)
   m_TagString: Untagged
@@ -22643,6 +24030,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1418011674
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418011668}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1420731862
 GameObject:
   m_ObjectHideFlags: 0
@@ -22656,6 +24063,7 @@ GameObject:
   - component: {fileID: 1420731866}
   - component: {fileID: 1420731865}
   - component: {fileID: 1420731864}
+  - component: {fileID: 1420731868}
   m_Layer: 3
   m_Name: Robot (4)
   m_TagString: Untagged
@@ -22870,6 +24278,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1420731868
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420731862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1421795054
 GameObject:
   m_ObjectHideFlags: 0
@@ -22883,6 +24311,7 @@ GameObject:
   - component: {fileID: 1421795058}
   - component: {fileID: 1421795057}
   - component: {fileID: 1421795056}
+  - component: {fileID: 1421795060}
   m_Layer: 3
   m_Name: Robot (31)
   m_TagString: Untagged
@@ -23097,6 +24526,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1421795060
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421795054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1422951798
 GameObject:
   m_ObjectHideFlags: 0
@@ -23141,6 +24590,7 @@ GameObject:
   - component: {fileID: 1440255154}
   - component: {fileID: 1440255153}
   - component: {fileID: 1440255152}
+  - component: {fileID: 1440255156}
   m_Layer: 3
   m_Name: Robot (7)
   m_TagString: Untagged
@@ -23355,6 +24805,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1440255156
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440255150}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1440489032
 GameObject:
   m_ObjectHideFlags: 0
@@ -23399,6 +24869,7 @@ GameObject:
   - component: {fileID: 1447702795}
   - component: {fileID: 1447702794}
   - component: {fileID: 1447702793}
+  - component: {fileID: 1447702797}
   m_Layer: 3
   m_Name: Robot (8)
   m_TagString: Untagged
@@ -23613,6 +25084,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1447702797
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447702791}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1447962923
 GameObject:
   m_ObjectHideFlags: 0
@@ -23719,6 +25210,7 @@ GameObject:
   - component: {fileID: 1456095115}
   - component: {fileID: 1456095114}
   - component: {fileID: 1456095113}
+  - component: {fileID: 1456095117}
   m_Layer: 3
   m_Name: Robot (12)
   m_TagString: Untagged
@@ -23933,6 +25425,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1456095117
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456095111}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1464541173
 GameObject:
   m_ObjectHideFlags: 0
@@ -23977,6 +25489,7 @@ GameObject:
   - component: {fileID: 1464720335}
   - component: {fileID: 1464720334}
   - component: {fileID: 1464720333}
+  - component: {fileID: 1464720337}
   m_Layer: 3
   m_Name: Robot (9)
   m_TagString: Untagged
@@ -24191,6 +25704,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1464720337
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464720331}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1470258444
 GameObject:
   m_ObjectHideFlags: 0
@@ -24423,6 +25956,7 @@ GameObject:
   - component: {fileID: 1498617013}
   - component: {fileID: 1498617012}
   - component: {fileID: 1498617011}
+  - component: {fileID: 1498617015}
   m_Layer: 3
   m_Name: Robot (3)
   m_TagString: Untagged
@@ -24637,6 +26171,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1498617015
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498617009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1499183949
 GameObject:
   m_ObjectHideFlags: 0
@@ -24650,6 +26204,7 @@ GameObject:
   - component: {fileID: 1499183953}
   - component: {fileID: 1499183952}
   - component: {fileID: 1499183951}
+  - component: {fileID: 1499183955}
   m_Layer: 3
   m_Name: Robot (46)
   m_TagString: Untagged
@@ -24864,6 +26419,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1499183955
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499183949}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1499305477
 GameObject:
   m_ObjectHideFlags: 0
@@ -25187,7 +26762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 1295825601}
+  m_BoundingShape2D: {fileID: 1030027465}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!1 &1520722131
@@ -25234,6 +26809,7 @@ GameObject:
   - component: {fileID: 1525098163}
   - component: {fileID: 1525098162}
   - component: {fileID: 1525098161}
+  - component: {fileID: 1525098165}
   m_Layer: 3
   m_Name: Robot (22)
   m_TagString: Untagged
@@ -25448,6 +27024,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1525098165
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525098159}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1527758968
 GameObject:
   m_ObjectHideFlags: 0
@@ -25492,6 +27088,7 @@ GameObject:
   - component: {fileID: 1528210417}
   - component: {fileID: 1528210416}
   - component: {fileID: 1528210415}
+  - component: {fileID: 1528210419}
   m_Layer: 3
   m_Name: Robot (37)
   m_TagString: Untagged
@@ -25706,6 +27303,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1528210419
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528210413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1540149992
 GameObject:
   m_ObjectHideFlags: 0
@@ -25750,6 +27367,7 @@ GameObject:
   - component: {fileID: 1553488694}
   - component: {fileID: 1553488693}
   - component: {fileID: 1553488692}
+  - component: {fileID: 1553488696}
   m_Layer: 3
   m_Name: Robot (13)
   m_TagString: Untagged
@@ -25964,6 +27582,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1553488696
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553488690}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1554263779
 GameObject:
   m_ObjectHideFlags: 0
@@ -26008,6 +27646,7 @@ GameObject:
   - component: {fileID: 1563605742}
   - component: {fileID: 1563605741}
   - component: {fileID: 1563605740}
+  - component: {fileID: 1563605744}
   m_Layer: 3
   m_Name: Robot (40)
   m_TagString: Untagged
@@ -26222,6 +27861,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1563605744
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563605738}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1565073915
 GameObject:
   m_ObjectHideFlags: 0
@@ -26266,6 +27925,7 @@ GameObject:
   - component: {fileID: 1566109214}
   - component: {fileID: 1566109213}
   - component: {fileID: 1566109212}
+  - component: {fileID: 1566109216}
   m_Layer: 3
   m_Name: Robot (10)
   m_TagString: Untagged
@@ -26480,6 +28140,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1566109216
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566109210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1568387204
 GameObject:
   m_ObjectHideFlags: 0
@@ -26493,6 +28173,7 @@ GameObject:
   - component: {fileID: 1568387208}
   - component: {fileID: 1568387207}
   - component: {fileID: 1568387206}
+  - component: {fileID: 1568387210}
   m_Layer: 3
   m_Name: Robot (20)
   m_TagString: Untagged
@@ -26707,6 +28388,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1568387210
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568387204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1571566364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26874,6 +28575,7 @@ GameObject:
   - component: {fileID: 1606829841}
   - component: {fileID: 1606829840}
   - component: {fileID: 1606829839}
+  - component: {fileID: 1606829843}
   m_Layer: 3
   m_Name: Robot (28)
   m_TagString: Untagged
@@ -27088,6 +28790,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1606829843
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606829837}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1613655892
 GameObject:
   m_ObjectHideFlags: 0
@@ -27132,6 +28854,7 @@ GameObject:
   - component: {fileID: 1639943540}
   - component: {fileID: 1639943539}
   - component: {fileID: 1639943538}
+  - component: {fileID: 1639943542}
   m_Layer: 3
   m_Name: Robot (26)
   m_TagString: Untagged
@@ -27346,6 +29069,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1639943542
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639943536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1647996865
 GameObject:
   m_ObjectHideFlags: 0
@@ -27390,6 +29133,7 @@ GameObject:
   - component: {fileID: 1655102087}
   - component: {fileID: 1655102086}
   - component: {fileID: 1655102085}
+  - component: {fileID: 1655102089}
   m_Layer: 3
   m_Name: Robot (5)
   m_TagString: Untagged
@@ -27604,6 +29348,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1655102089
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655102083}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1661054927
 GameObject:
   m_ObjectHideFlags: 0
@@ -27861,6 +29625,7 @@ GameObject:
   - component: {fileID: 1687767298}
   - component: {fileID: 1687767297}
   - component: {fileID: 1687767296}
+  - component: {fileID: 1687767300}
   m_Layer: 3
   m_Name: Robot (3)
   m_TagString: Untagged
@@ -28075,6 +29840,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1687767300
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687767294}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1694739353
 GameObject:
   m_ObjectHideFlags: 0
@@ -28469,6 +30254,7 @@ GameObject:
   - component: {fileID: 1748921982}
   - component: {fileID: 1748921981}
   - component: {fileID: 1748921980}
+  - component: {fileID: 1748921984}
   m_Layer: 3
   m_Name: Robot (33)
   m_TagString: Untagged
@@ -28683,6 +30469,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1748921984
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748921978}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1758616823
 GameObject:
   m_ObjectHideFlags: 0
@@ -28882,6 +30688,7 @@ GameObject:
   - component: {fileID: 1782675881}
   - component: {fileID: 1782675880}
   - component: {fileID: 1782675879}
+  - component: {fileID: 1782675883}
   m_Layer: 3
   m_Name: Robot (6)
   m_TagString: Untagged
@@ -29096,6 +30903,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1782675883
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782675877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1796307635
 GameObject:
   m_ObjectHideFlags: 0
@@ -29388,6 +31215,7 @@ GameObject:
   - component: {fileID: 1840247978}
   - component: {fileID: 1840247977}
   - component: {fileID: 1840247976}
+  - component: {fileID: 1840247980}
   m_Layer: 3
   m_Name: Robot (21)
   m_TagString: Untagged
@@ -29602,6 +31430,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1840247980
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840247974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1852323595
 GameObject:
   m_ObjectHideFlags: 0
@@ -29615,6 +31463,7 @@ GameObject:
   - component: {fileID: 1852323599}
   - component: {fileID: 1852323598}
   - component: {fileID: 1852323597}
+  - component: {fileID: 1852323601}
   m_Layer: 3
   m_Name: Robot (10)
   m_TagString: Untagged
@@ -29829,6 +31678,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1852323601
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852323595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1856694591
 GameObject:
   m_ObjectHideFlags: 0
@@ -30515,6 +32384,7 @@ GameObject:
   - component: {fileID: 1930958251}
   - component: {fileID: 1930958250}
   - component: {fileID: 1930958249}
+  - component: {fileID: 1930958253}
   m_Layer: 3
   m_Name: Robot (29)
   m_TagString: Untagged
@@ -30729,6 +32599,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1930958253
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930958247}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1932030134
 GameObject:
   m_ObjectHideFlags: 0
@@ -30908,6 +32798,7 @@ GameObject:
   - component: {fileID: 1933384283}
   - component: {fileID: 1933384282}
   - component: {fileID: 1933384281}
+  - component: {fileID: 1933384285}
   m_Layer: 3
   m_Name: Robot (38)
   m_TagString: Untagged
@@ -31122,6 +33013,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1933384285
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933384279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cbec6c2206435b43957562ff00363f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1933777906
 GameObject:
   m_ObjectHideFlags: 0
@@ -31166,6 +33077,7 @@ GameObject:
   - component: {fileID: 1934444243}
   - component: {fileID: 1934444242}
   - component: {fileID: 1934444241}
+  - component: {fileID: 1934444245}
   m_Layer: 3
   m_Name: Robot (18)
   m_TagString: Untagged
@@ -31380,6 +33292,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1934444245
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934444239}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1934792105
 GameObject:
   m_ObjectHideFlags: 0
@@ -31548,6 +33480,7 @@ GameObject:
   - component: {fileID: 1973695068}
   - component: {fileID: 1973695067}
   - component: {fileID: 1973695066}
+  - component: {fileID: 1973695070}
   m_Layer: 3
   m_Name: Robot (25)
   m_TagString: Untagged
@@ -31762,6 +33695,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1973695070
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973695064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1974662422
 GameObject:
   m_ObjectHideFlags: 0
@@ -31899,6 +33852,7 @@ GameObject:
   - component: {fileID: 1978435998}
   - component: {fileID: 1978435997}
   - component: {fileID: 1978435996}
+  - component: {fileID: 1978436000}
   m_Layer: 3
   m_Name: Robot (27)
   m_TagString: Untagged
@@ -32113,6 +34067,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1978436000
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978435994}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1980195303
 GameObject:
   m_ObjectHideFlags: 0
@@ -32410,6 +34384,7 @@ GameObject:
   - component: {fileID: 2057779573}
   - component: {fileID: 2057779572}
   - component: {fileID: 2057779571}
+  - component: {fileID: 2057779575}
   m_Layer: 3
   m_Name: Robot (6)
   m_TagString: Untagged
@@ -32624,6 +34599,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2057779575
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057779569}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2064215466
 GameObject:
   m_ObjectHideFlags: 0
@@ -32637,6 +34632,7 @@ GameObject:
   - component: {fileID: 2064215470}
   - component: {fileID: 2064215469}
   - component: {fileID: 2064215468}
+  - component: {fileID: 2064215472}
   m_Layer: 3
   m_Name: Robot (24)
   m_TagString: Untagged
@@ -32851,6 +34847,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2064215472
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064215466}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2082322957
 GameObject:
   m_ObjectHideFlags: 0
@@ -32895,6 +34911,7 @@ GameObject:
   - component: {fileID: 2090874411}
   - component: {fileID: 2090874410}
   - component: {fileID: 2090874409}
+  - component: {fileID: 2090874413}
   m_Layer: 3
   m_Name: Robot
   m_TagString: Untagged
@@ -33109,6 +35126,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2090874413
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090874407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 424bf1d502599ef418c370fac81387b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2096122974
 GameObject:
   m_ObjectHideFlags: 0
@@ -33122,6 +35159,7 @@ GameObject:
   - component: {fileID: 2096122978}
   - component: {fileID: 2096122977}
   - component: {fileID: 2096122976}
+  - component: {fileID: 2096122980}
   m_Layer: 3
   m_Name: Robot
   m_TagString: Untagged
@@ -33336,6 +35374,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2096122980
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096122974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1431d2d7c2effdb4aaa93d414675245f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2114138859
 GameObject:
   m_ObjectHideFlags: 0
@@ -33404,6 +35462,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b3a1000677ec5d4f800faa46badc8ad, type: 2}
   _restartCyclePanel: {fileID: 925205033}
   _nextCyclePanel: {fileID: 722865309}
+  _endCyclePanel: {fileID: 0}
   _canvas: {fileID: 1208766604}
   _amountCatchedHumans: 0
   _amountDisorderlyConduct: 0

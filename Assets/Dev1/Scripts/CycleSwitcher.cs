@@ -17,6 +17,7 @@ public class CycleSwitcher : MonoBehaviour
 
     [SerializeField] private GameObject _restartCyclePanel;
     [SerializeField] private GameObject _nextCyclePanel;
+    [SerializeField] private GameObject _endCyclePanel;
 
     [SerializeField] private GameObject _canvas;
 
@@ -47,6 +48,13 @@ public class CycleSwitcher : MonoBehaviour
 
     public void LaunchNextCycle()
     {
+        if(_currentCycle > _listCycleSettings.Count)
+        {
+            _endCyclePanel.SetActive(true);
+            Time.timeScale = 0;
+            return;
+        }
+
         _currentCycle++;
         Debug.Log(_currentCycle);
         SceneManager.LoadSceneAsync(0);
