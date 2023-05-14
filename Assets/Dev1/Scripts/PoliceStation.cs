@@ -23,7 +23,7 @@ public class PoliceStation : MonoBehaviour
     {
         if(collision.TryGetComponent(out Player player))
         {
-            _cycleSwitcher.LaunchNextCycle();
+            _cycleSwitcher.ActivateNextPanel();
         }
     }
 }

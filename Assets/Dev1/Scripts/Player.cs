@@ -69,23 +69,19 @@ public class Player : MonoBehaviour
             {
                 case ItemType.Gun:
                     //animator play something
-                    print("gun");
                     DistanceAttack();
                     //here set _itemInHand
                     break;
 
                 case ItemType.StunGun:
-                    print("stunGun");
                     DistanceAttack();
                     break;
 
                 case ItemType.PepperSpray:
-                    print("pepperSpray");
                     MeleeAttack();
                     break;
 
                 case ItemType.Baton:
-                    print("baton");
                     MeleeAttack();
                     break;
             }
@@ -101,7 +97,6 @@ public class Player : MonoBehaviour
 
         foreach (RaycastHit2D hit in hits)
         {
-            print(hit.transform.gameObject.name);
 
             if(hit.transform.gameObject.TryGetComponent(out Human human))
             {
@@ -121,7 +116,6 @@ public class Player : MonoBehaviour
 
         if (ray == false) return;
 
-        print(ray.transform.gameObject.name);
         
         if (ray.transform.gameObject.TryGetComponent(out Human human))
         {

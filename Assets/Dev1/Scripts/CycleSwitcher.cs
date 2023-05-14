@@ -14,6 +14,9 @@ public class CycleSwitcher : MonoBehaviour
 
     public List<CycleSettingsSO> _listCycleSettings;
 
+    [SerializeField] private GameObject _restartCyclePanel;
+    [SerializeField] private GameObject _nextCyclePanel;
+
     private void Awake()
     {
         if(Instance == null)
@@ -31,12 +34,24 @@ public class CycleSwitcher : MonoBehaviour
         //SwitchedCycle?.Invoke(_listCycleSettings[_currentCycle]);
         _currentCycle++;
         Debug.Log(_currentCycle);
+        _nextCyclePanel.SetActive(false);
         SceneManager.LoadSceneAsync(0);
     }
 
     public void RestartCycle()
     {
         Debug.Log(_currentCycle);
+        _restartCyclePanel.SetActive(false);
         SceneManager.LoadSceneAsync(0);
+    }
+
+    public void ActivateRestartPanel()
+    {
+        _restartCyclePanel.SetActive(true);
+    }
+
+    public void ActivateNextPanel()
+    {
+        _nextCyclePanel.SetActive(true);
     }
 }

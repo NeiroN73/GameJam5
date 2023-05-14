@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
         {
             print("Человек сбежал!");
             _currentTime = 0;
-            _cycleSwitcher.RestartCycle();
+            _cycleSwitcher.ActivateRestartPanel();
         }
         else
         {

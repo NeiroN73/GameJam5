@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Human : Humanoid
 {
+    [SerializeField] private List<Sprite> _listEmoji;
     [SerializeField] private GameObject _emoji;
 
     [SerializeField] private float _emojiDuration;
@@ -28,6 +30,9 @@ public class Human : Humanoid
     {
         while(true)
         {
+            Sprite randomEmoji = _listEmoji[Random.Range(0, _listEmoji.Count)];
+            _emoji.GetComponent<Image>().sprite = randomEmoji;
+
             _emoji.SetActive(true);
             yield return new WaitForSeconds(_emojiDuration);
             _emoji.SetActive(false);

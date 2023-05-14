@@ -8,7 +8,7 @@ public class Exit : MonoBehaviour
     {
         if(collision.TryGetComponent(out Human human)) 
         {
-            CycleSwitcher.Instance.RestartCycle();
+            CycleSwitcher.Instance.ActivateRestartPanel();
         }
     }
 }
