@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Exit : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.TryGetComponent(out Human human)) 
+        if (collision.gameObject.TryGetComponent(out Human human))
         {
             CycleSwitcher.Instance.ActivateRestartPanel();
         }
