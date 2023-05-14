@@ -144,14 +144,20 @@ public class Player : MonoBehaviour
         movement = Vector2.ClampMagnitude(movement, 1);
 
         _rigidbody.velocity += movement * _speed * Time.deltaTime;
+        _animator.SetBool("isMoving", true);
 
         if (horizontal > 0)
         {
-            transform.eulerAngles = new Vector3(0, 180, 0);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (horizontal < 0)
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+
+        if(horizontal == 0 && vertical == 0)
+        {
+            _animator.SetBool("isMoving", false);
         }
     }
 }

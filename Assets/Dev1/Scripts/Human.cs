@@ -15,6 +15,8 @@ public class Human : Humanoid
 
     [SerializeField] private Exit _exit;
 
+    [SerializeField] private List<Transform> _points = new List<Transform>();
+
     public void ApplyDamage()
     {
         print("i hited and i human");

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Zone : MonoBehaviour
 {
     [SerializeField] private Computer _computer;
-    [SerializeField] private string _nameZone;
+    [SerializeField] private int _nameZone;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
