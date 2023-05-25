@@ -12,8 +12,6 @@ public class Zone : MonoBehaviour
         if(collision.TryGetComponent(out Human human))
         {
             _computer.WarningSignal(_nameZone);
-            print("check");
-            Debug.Log(human.transform.name);
         }
     }
 }
