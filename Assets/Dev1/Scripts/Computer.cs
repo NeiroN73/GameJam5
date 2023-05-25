@@ -19,9 +19,8 @@ public class Computer : MonoBehaviour
 
     private void Start()
     {
-            StartCoroutine(OutputText(_text));
-            _panel.SetActive(true);
-
+        StartCoroutine(OutputText(_text));
+        _panel.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,10 +33,6 @@ public class Computer : MonoBehaviour
                 StartCoroutine(OutputText("Human detected in " + _nameZone));
             }
         }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //_panel.SetActive(false);
     }
 
     private IEnumerator OutputText(List<string> text)

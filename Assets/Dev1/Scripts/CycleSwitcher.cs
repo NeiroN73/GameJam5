@@ -10,9 +10,7 @@ public class CycleSwitcher : MonoBehaviour
     public static CycleSwitcher Instance { get; private set; }
 
     public int _currentCycle;
-
     public Action<CycleSettingsSO> SwitchedCycle;
-
     public List<CycleSettingsSO> _listCycleSettings;
 
     [SerializeField] private GameObject _restartCyclePanel;
