@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Block
+  - Human
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Enemy
+  - Human
   - Water
   - UI
   - 
